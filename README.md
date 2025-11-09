@@ -1,0 +1,1 @@
+Dynamic Host Configuration Protocol (DHCP) is a networking protocol for dynamically assigning IP addresses to each host on your organization's network. DHCP also assigns Domain Name System (DNS) addresses, subnet masks, and default gateways and also NTP server. As you know this is a critical service in mid/large organizations.
