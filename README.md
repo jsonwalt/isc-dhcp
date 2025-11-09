@@ -3,7 +3,7 @@ With this Docker container, you can create a lightweight DHCP server that can ma
 To install the ISC DHCP server, you must complete these steps:
 1. Pull the Docker image from Docker Hub: sudo docker pull jsonwalt/isc-dhcp
 2. Create a folder in /opt to mount the volume: mkdir /opt/dhcp-data/
-3. Copy the config file to the volume: cp dhcpd.conf /opt/dhcp-data/
+3. Copy the config file to the volume, before copy the file confirm that replace your HOST IP ADDRESS :cp dhcpd.conf /opt/dhcp-data/
 4. Copy VALNs configuration file: cp pool-vlanx.conf /opt/dhcp-data/
 5. Create a dhcpd.leased file to log assignment logs: sudo touch /opt/dhcp-data/dhcpd.leases
 6. Change the ownership: sudo chown root:root /opt/dhcp-data/*
